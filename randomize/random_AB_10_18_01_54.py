@@ -19,16 +19,16 @@ def count_weight(arr):
 
 max_e = 0
 tmp_ans = np.random.randint(2,size=101)
-for i in range(10000000):
+while True :
 
-        ans = np.random.randint(2,size=101)
-        tmp = count_weight(ans)
-        if(i%10==0):
-                print("Times:", i)
-                
-        if(tmp > max_e):
-                max_e = tmp
-                tmp_ans = ans
-                print(max_e)
+    ans = np.random.randint(2,size=101)
+    tmp = count_weight(ans)
+            
+    if(tmp > max_e):
+        max_e = tmp
+        tmp_ans = ans
+        print(max_e)
+        f = open("result.txt", "a")
+        f.write(' '.join(str(e) for e in ans) + "\n")
         
         
