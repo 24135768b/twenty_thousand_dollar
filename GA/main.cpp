@@ -61,29 +61,29 @@ public:
     }
 };
 
-int cmp(ClassOfStudents const &a, ClassOfStudents const &b)
+int cmp(ClassOfStudents *const &a, ClassOfStudents *const &b)
 {
-    return a.score > b.score;
+    return a->score > b->score;
 }
 
 class GA
 {
-private:
-    int populationSize = 1000;
+public:
+    int populationSize = 10000;
     double pm = 0.15, pc = 0.95;
     // Crossover from population last parent and parent - cnt
     int crossoverCnt;
-    ClassOfStudents *population;
+    ClassOfStudents **population;
 
-public:
     GA(int n)
     {
-        population = new ClassOfStudents[n];
+        population = new ClassOfStudents *[populationSize];
         crossoverCnt = sqrt(populationSize);
         for (int i = 0; i < populationSize; i++)
         {
             vector<bool> temp = randomGenStud(n);
-            population[i] = ClassOfStudents(temp);
+            ClassOfStudents *tempClass = new ClassOfStudents(temp);
+            population[i] = tempClass;
             // population[i].calcE();
             // population[i].printResult();
         }
@@ -102,14 +102,17 @@ public:
         sort(population, population + populationSize, cmp);
         for (int i = crossoverCnt; i < populationSize; i++)
         {
-            population[i] = crossOver(population[r() % crossoverCnt], population[r() % crossoverCnt]);
-            population[i].calcE();
+            delete population[i];
+            ClassOfStudents *tempClass = new ClassOfStudents();
+            *tempClass = crossOver(*population[r() % crossoverCnt], *population[r() % crossoverCnt]);
+            population[i] = tempClass;
+            population[i]->calcE();
         }
     }
     void printHighest()
     {
         sort(population, population + populationSize, cmp);
-        cout << population[0].getResultString() << endl;
+        cout << population[0]->getResultString() << endl;
     }
     void run(int gen)
     {
