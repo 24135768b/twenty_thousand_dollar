@@ -85,11 +85,11 @@ public:
         for (auto &i : elite)
         {
             vector<bool> temp;
-            for (auto &j : i)
+            for (auto j : i)
             {
                 if (j != ' ')
                 {
-                    temp.push_back(j == 'A');
+                    temp.push_back(j == '1');
                 }
             }
             population[start++] = new ClassOfStudents(temp);
@@ -117,11 +117,11 @@ public:
         sort(population, population + populationSize, cmp);
         for (int i = crossoverCnt; i < populationSize; i++)
         {
-            delete population[i];
-            ClassOfStudents *tempClass = new ClassOfStudents();
-            *tempClass = crossOver(*population[r() % crossoverCnt], *population[r() % crossoverCnt]);
-            population[i] = tempClass;
-            population[i]->calcE();
+            //delete population[i];
+            //ClassOfStudents *tempClass = new ClassOfStudents();
+            //*tempClass = crossOver(*population[r() % crossoverCnt], *population[r() % crossoverCnt]);
+            //population[i] = tempClass;
+            //population[i]->calcE();
         }
     }
     void printHighest()
