@@ -152,6 +152,8 @@ int main(int argc, char **argv)
     int n = atoi(argv[1]);
     int size = n * (n - 1) / 2;
 
+    int generation = atoi(argv[2]);
+
     cout << "n= " << n << "\nsize= " << size << endl;
 
     wij.resize(n + 1);
@@ -170,7 +172,21 @@ int main(int argc, char **argv)
     }
     cout << "read success" << endl;
     GA ga(n);
-    ga.run(100);
+    ga.run(generation);
     ga.printHighest();
+
+    ifstream bestScoreFile("bestScore.txt");
+    double bestScore;
+    bestScoreFile >> bestScore;
+    bestScoreFile.close();
+    if (ga.population[0]->score > bestScore)
+    {
+        cout << "new best! ";
+        ofstream newBest(string("bestScoreList/") + to_string(ga.population[0]->score));
+        newBest << ga.population[0]->getResultString() << endl;
+        ofstream bestScoreFile("bestRecord.txt");
+        bestScoreFile << ga.population[0]->score;
+    }
+    cout << ga.population[0]->score << endl;
     return 0;
 }
