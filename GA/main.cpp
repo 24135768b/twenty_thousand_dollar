@@ -6,6 +6,7 @@ vector<vector<double>> wij;
 
 // Log file
 ofstream log_file("log.txt");
+set<string> elite;
 
 double getRand()
 {
@@ -29,7 +30,7 @@ public:
     {
         int size = initStudent.size();
         student.resize(size);
-        for (int i = 1; i <= size; i++)
+        for (int i = 1; i < size; i++)
         {
             student[i] = initStudent[i];
         }
@@ -69,7 +70,7 @@ int cmp(ClassOfStudents *const &a, ClassOfStudents *const &b)
 class GA
 {
 public:
-    int populationSize = 100000;
+    int populationSize = 10000;
     double pm = 0.15, pc = 0.95;
     // Crossover from population last parent and parent - cnt
     int crossoverCnt;
@@ -79,7 +80,21 @@ public:
     {
         population = new ClassOfStudents *[populationSize];
         crossoverCnt = sqrt(populationSize);
-        for (int i = 0; i < populationSize; i++)
+        // insert elite
+        int start = 0;
+        for (auto &i : elite)
+        {
+            vector<bool> temp;
+            for (auto &j : i)
+            {
+                if (j != ' ')
+                {
+                    temp.push_back(j == 'A');
+                }
+            }
+            population[start++] = new ClassOfStudents(temp);
+        }
+        for (int i = start; i < populationSize; i++)
         {
             vector<bool> temp = randomGenStud(n);
             ClassOfStudents *tempClass = new ClassOfStudents(temp);
@@ -124,6 +139,23 @@ public:
             log_file << population[0]->getResultString() << endl;
         }
     }
+    void writeElite()
+    {
+        for (int i = 0; (i < populationSize) && (population[i]->score > 720); i++)
+        {
+            string res = "";
+            for (auto j : population[i]->student)
+            {
+                res += string(j ? "1" : "0") + string(" ");
+            }
+            elite.insert(res);
+        }
+        ofstream elite_file("elite.txt");
+        for (auto &i : elite)
+        {
+            elite_file << i << endl;
+        }
+    }
     ClassOfStudents crossOver(ClassOfStudents &a, ClassOfStudents &b)
     {
         vector<bool> tmp = a.student;
@@ -134,24 +166,15 @@ public:
         while (maxReplaced--)
         {
             int index = r() % size + 1;
-            tmp[index] = b_students[index];
+            if (getRand() < pc)
+            {
+                tmp[index] = b_students[index];
+            }
+            else
+            {
+                tmp[index] = tmp[index] ^ b_students[index];
+            }
         }
-        // for (int i = 1; i < size && maxReplaced; i++)
-        // {
-        //     if (tmp[i] != b_students[i])
-        //     {
-        //         if (getRand() < pc)
-        //         {
-        //             tmp[i] = b_students[i];
-        //         }
-        //         else
-        //         {
-        //             tmp[i] = tmp[i] ^ b_students[i];
-        //         }
-        //         maxReplaced--;
-        //     }
-        // }
-        // if pm
         if (getRand() < pm)
         {
             int t = r() % size + 1;
@@ -192,13 +215,28 @@ int main(int argc, char **argv)
     cout << "read success" << endl;
     while (t--)
     {
+        ifstream elite_file("elite.txt");
+        elite.clear();
+        while (!elite_file.eof())
+        {
+            string line;
+            getline(elite_file, line);
+            if (line == "")
+            {
+                break;
+            }
+            elite.insert(line);
+        }
+        elite_file.close();
         GA ga(n);
         ga.run(generation);
+        ga.writeElite();
 
         ifstream bestScoreFile("bestScore.txt");
         double bestScore;
         bestScoreFile >> bestScore;
         bestScoreFile.close();
+
         if (ga.population[0]->score > bestScore)
         {
             cout << "new best! ";
