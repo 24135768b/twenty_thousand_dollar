@@ -56,7 +56,7 @@ public:
             {
                 for (int j = i + 1; j < n; j++)
                 {
-                    cout << i << " " < < < j << " " << wij[i][j] << endl;
+                    cout << i << " " << j << " " << wij[i][j] << endl;
                 }
             }
             exit(0);
