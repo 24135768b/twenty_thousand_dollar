@@ -5,7 +5,7 @@ mt19937 r(time(NULL));
 vector<vector<double>> wij;
 
 // Log file
-ofstream log_file = ofstream("log.txt");
+ofstream log_file("log.txt");
 
 double getRand()
 {
@@ -190,7 +190,7 @@ int main(int argc, char **argv)
         cout << "new best! ";
         ofstream newBest(string("bestScoreList/") + to_string(ga.population[0]->score));
         newBest << ga.population[0]->getResultString() << endl;
-        ofstream bestScoreFile("bestRecord.txt");
+        ofstream bestScoreFile("bestScore.txt");
         bestScoreFile << ga.population[0]->score;
     }
     cout << ga.population[0]->score << endl;
