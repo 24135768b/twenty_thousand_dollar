@@ -131,7 +131,8 @@ public:
 
         int size = tmp.size();
         int maxReplaced = r() % 5 + 1;
-        while(maxReplaced--){
+        while (maxReplaced--)
+        {
             int index = r() % size + 1;
             tmp[index] = b_students[index];
         }
@@ -204,10 +205,11 @@ int main(int argc, char **argv)
             ofstream newBest(string("bestScoreList/") + to_string(ga.population[0]->score));
             newBest << ga.population[0]->getResultString() << endl;
             ofstream bestScoreFile("bestScore.txt");
-            bestScoreFile << ga.population[0]->score;
+            bestScoreFile << to_string(ga.population[0]->score);
         }
-        cout << ga.population[0]->score << endl;
-        cout << t << " times last" << endl;
+        cout << to_string(ga.population[0]->score);
+        cout << "   " << setw(2) << t;
+        cout << " times left" << endl;
     }
     return 0;
 }
