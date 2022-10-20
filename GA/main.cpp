@@ -69,7 +69,7 @@ int cmp(ClassOfStudents *const &a, ClassOfStudents *const &b)
 class GA
 {
 public:
-    int populationSize = 10000;
+    int populationSize = 100000;
     double pm = 0.15, pc = 0.95;
     // Crossover from population last parent and parent - cnt
     int crossoverCnt;
