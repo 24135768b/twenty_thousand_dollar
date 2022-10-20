@@ -161,7 +161,7 @@ public:
         // if pm
         if (getRand() < pm)
         {
-            int t = r() % size - 1;
+            int t = r() % size + 1;
             tmp[t] = !a.student[t];
         }
         ClassOfStudents c = ClassOfStudents(tmp);
