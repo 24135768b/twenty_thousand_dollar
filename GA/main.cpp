@@ -47,6 +47,20 @@ public:
                 score += wij[i][j] * (student[i] ? 1 : -1) * (student[j] ? 1 : -1);
             }
         }
+        if (score > 10000)
+        {
+            cout << "Error" << endl;
+            cout << getResultString() << endl;
+            int n = wij.size();
+            for (int i = 1; i < n; i++)
+            {
+                for (int j = i + 1; j < n; j++)
+                {
+                    cout << i << " " < < < j << " " << wij[i][j] << endl;
+                }
+            }
+            exit(0);
+        }
     }
     string getResultString()
     {
@@ -127,7 +141,7 @@ public:
             nextGen();
             // Write log
             log_file << "Generation: " << i << endl;
-            log_file << population[0].getResultString() << endl;
+            log_file << population[0]->getResultString() << endl;
         }
     }
     ClassOfStudents crossOver(ClassOfStudents &a, ClassOfStudents &b)
@@ -138,7 +152,17 @@ public:
         int size = tmp.size();
         for (int i = 1; i < size; i++)
         {
-            tmp[i] = tmp[i] ^ b_students[i];
+            if (tmp[i] != b_students[i])
+            {
+                if (getRand() < pc)
+                {
+                    tmp[i] = b_students[i];
+                }
+                else
+                {
+                    tmp[i] = tmp[i] ^ b_students[i];
+                }
+            }
         }
         // if pm
         if (getRand() < pm)
