@@ -42,24 +42,10 @@ public:
         score = 0;
         for (int i = 1; i < size; i++)
         {
-            for (int j = i + 1; j <= size; j++)
+            for (int j = i + 1; j < size; j++)
             {
                 score += wij[i][j] * (student[i] ? 1 : -1) * (student[j] ? 1 : -1);
             }
-        }
-        if (score > 10000)
-        {
-            cout << "Error" << endl;
-            cout << getResultString() << endl;
-            int n = wij.size();
-            for (int i = 1; i < n; i++)
-            {
-                for (int j = i + 1; j < n; j++)
-                {
-                    cout << i << " " << j << " " << wij[i][j] << endl;
-                }
-            }
-            exit(0);
         }
     }
     string getResultString()
@@ -145,21 +131,25 @@ public:
 
         int size = tmp.size();
         int maxReplaced = r() % 5 + 1;
-        for (int i = 1; i < size && maxReplaced; i++)
-        {
-            if (tmp[i] != b_students[i])
-            {
-                if (getRand() < pc)
-                {
-                    tmp[i] = b_students[i];
-                }
-                else
-                {
-                    tmp[i] = tmp[i] ^ b_students[i];
-                }
-                maxReplaced--;
-            }
+        while(maxReplaced--){
+            int index = r() % size + 1;
+            tmp[index] = b_students[index];
         }
+        // for (int i = 1; i < size && maxReplaced; i++)
+        // {
+        //     if (tmp[i] != b_students[i])
+        //     {
+        //         if (getRand() < pc)
+        //         {
+        //             tmp[i] = b_students[i];
+        //         }
+        //         else
+        //         {
+        //             tmp[i] = tmp[i] ^ b_students[i];
+        //         }
+        //         maxReplaced--;
+        //     }
+        // }
         // if pm
         if (getRand() < pm)
         {
@@ -201,10 +191,8 @@ int main(int argc, char **argv)
     cout << "read success" << endl;
     while (t--)
     {
-        cout << t << " times last" << endl;
         GA ga(n);
         ga.run(generation);
-        ga.printHighest();
 
         ifstream bestScoreFile("bestScore.txt");
         double bestScore;
@@ -219,6 +207,7 @@ int main(int argc, char **argv)
             bestScoreFile << ga.population[0]->score;
         }
         cout << ga.population[0]->score << endl;
+        cout << t << " times last" << endl;
     }
     return 0;
 }
