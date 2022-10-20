@@ -1,0 +1,400 @@
+Generation: 0
+B B A A B A B A A B B A A B A B B B A A B A B B A B A A B A B B A A B B B A B B A A A B B B B A A B B B A B A A B B B B B B A B A A A B B B B B A A A A A B B B B A B B A B B B B B B B A A B A A B A B A 
+221.708700
+
+Generation: 1
+B B A A B A B A A B B A A B A B B B A A B A B B A B A A B A B B A A B B B A B B A A A B B B B A A B B B A B A A B B B B B B A B A A A B B B B B A A A A A B B B B A B B A B B B B B B B A A B A A B A B A 
+221.708700
+
+Generation: 2
+B B A A B A B A A B B A A B A B B B A A B A B B A B A A B A B B A A B B B A B B A A A B B B B A A B B B A B A A B B B B B B A B A A A B B B B B A A A A A B B B B A B B A B B B B B B B A A B A A B A B A 
+221.708700
+
+Generation: 3
+B B A A B A B A A B B A A B A B B B A A B A B B A B A A B A B B A A B B B A B B A A A B B B B A A B B B A B A A B B B B B B A B A A A B B B B B A A A A A B B B B A B B A B B B B B B B A A B A A B A B A 
+221.708700
+
+Generation: 4
+B B A A B A B A A B B A A B A B B B A A B A B B A B A A B A B B A A B B B A B B A A A B B B B A A B B B A B A A B B B B B B A B A A A B B B B B A A A A A B B B B A B B A B B B B B B B A A B A A B A B A 
+221.708700
+
+Generation: 5
+B B A A B A B A A B B A A B A B B B A A B A B B A B A A B A B B A A B B B A B B A A A B B B B A A B B B A B A A B B B B B B A B A A A B B B B B A A A A A B B B B A B B A B B B B B B B A A B A A B A B A 
+221.708700
+
+Generation: 6
+B A B B B A A A B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A B A A B A B B B A A A A B B A A A A A B A B A B B A A A B B A B B A B A B B A A B A A A A A A B B A A B B A A A A A B B B A A 
+226.766300
+
+Generation: 7
+B A A B A A B B A B A B B B A B B B A B A A B B B B B A B A B B B A A A B A B B B A A B A B B A A B B B A B A A B A A A B B A B B B B B A B A B B B B B A B A B B A B A A B B A A B B A A B A B B A A B B 
+228.362500
+
+Generation: 8
+B A A B A A B B A B A B B B A B B B A B A A B B B B B A B A B B B A A A B A B B B A A B A B B A A B B B A B A A B A A A B B A B B B B B A B A B B B B B A B A B B A B A A B B A A B B A A B A B B A A B B 
+228.362500
+
+Generation: 9
+A B A B A B A B A B B A A A B A A B B B A B B B A A A B A A B B B B B A A B A A A A B A A B A B B A B B B A B B A A B A A B A A B A B B B B A A B A A B B A A A A B A B B B B B B B B B B A B A B A A A A 
+241.351300
+
+Generation: 10
+A B A B A B A B A B B A A A B A A B B B A B B B A A A B A A B B B B B A A B A A A A B A A B A B B A B B B A B B A A B A A B A A B A B B B B A A B A A B B A A A A B A B B B B B B B B B B A B A B A A A A 
+241.351300
+
+Generation: 11
+A B A B A B A B A B B A A A B A A B B B A B B B A A A B A A B B B B B A A B A A A A B A A B A B B A B B B A B B A A B A A B A A B A B B B B A A B A A B B A A A A B A B B B B B B B B B B A B A B A A A A 
+241.351300
+
+Generation: 12
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A B A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+243.011500
+
+Generation: 13
+B A A B A A B B A B A B B B A B B B A B A A B B B B B A B A B B B A A A B A B B B A A B A B B A A B B B A B A B B A A A B B A B B B B B A B A B B B B A A B A B B A B A A B B A A B B A A B A B B A A B B 
+250.505500
+
+Generation: 14
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 15
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 16
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 17
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 18
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 19
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 20
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 21
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 22
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 23
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 24
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 25
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 26
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 27
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 28
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 29
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 30
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 31
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 32
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 33
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 34
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 35
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 36
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 37
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 38
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 39
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 40
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 41
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 42
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 43
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 44
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 45
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 46
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 47
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 48
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 49
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 50
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 51
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 52
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 53
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 54
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 55
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 56
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 57
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 58
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 59
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 60
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 61
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 62
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 63
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 64
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 65
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 66
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 67
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 68
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 69
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 70
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 71
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 72
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 73
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 74
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 75
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 76
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 77
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 78
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 79
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 80
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 81
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 82
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 83
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 84
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 85
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 86
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 87
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 88
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 89
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 90
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 91
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 92
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 93
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 94
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 95
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 96
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 97
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 98
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+
+Generation: 99
+A A B B B A A B B B A A A A A A A B A B B A B B A A A A A B B B B A A B A A A A A B A A B B A A A A B B A A A B A B A B A B B A A A B B A A B A B A A B A A B A A A A A A B B A A B B A A A A A B B B A A 
+284.215100
+

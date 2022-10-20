@@ -4,6 +4,18 @@ using namespace std;
 mt19937 r(time(NULL));
 vector<vector<double>> wij;
 
+// Log file
+ofstream log_file = ofstream("log.txt");
+
+double getRand()
+{
+    return (double)r() / (double)mt19937::max();
+}
+
+bool getRandBool()
+{
+    return getRand() < 0.5;
+}
 class ClassOfStudents
 {
 public:
@@ -36,15 +48,16 @@ public:
             }
         }
     }
-    void printResult()
+    string getResultString()
     {
         int size = student.size();
+        string result = "";
         for (int i = 1; i < size; i++)
         {
-            cout << (student[i] ? "A" : "B") << " ";
+            result += string(student[i] ? "A" : "B") + string(" ");
         }
-        cout << endl;
-        cout << score << endl;
+        result += string("\n") + to_string(score) + string("\n");
+        return result;
     }
 };
 
@@ -56,7 +69,7 @@ int cmp(ClassOfStudents const &a, ClassOfStudents const &b)
 class GA
 {
 private:
-    int populationSize = 100;
+    int populationSize = 1000;
     double pm = 0.15, pc = 0.95;
     // Crossover from population last parent and parent - cnt
     int crossoverCnt;
@@ -80,49 +93,46 @@ public:
         vector<bool> result(n + 1);
         for (int i = 1; i <= n; i++)
         {
-            result[i] = r() % 2;
+            result[i] = getRandBool();
         }
         return result;
     }
     void nextGen()
     {
         sort(population, population + populationSize, cmp);
-        int top = populationSize * 0.2;
         for (int i = crossoverCnt; i < populationSize; i++)
         {
             population[i] = crossOver(population[r() % crossoverCnt], population[r() % crossoverCnt]);
+            population[i].calcE();
         }
     }
-    void print()
+    void printHighest()
     {
-        for (int i = 0; i < populationSize; i++)
-        {
-            population[i].printResult();
-        }
+        sort(population, population + populationSize, cmp);
+        cout << population[0].getResultString() << endl;
     }
     void run(int gen)
     {
         for (int i = 0; i < gen; i++)
         {
             nextGen();
-            population[0].printResult();
+            // Write log
+            log_file << "Generation: " << i << endl;
+            log_file << population[0].getResultString() << endl;
         }
     }
     ClassOfStudents crossOver(ClassOfStudents &a, ClassOfStudents &b)
     {
         vector<bool> tmp = a.student;
-        int size = a.student.size();
         vector<bool> b_students = b.student;
+
+        int size = tmp.size();
         for (int i = 1; i < size; i++)
         {
-            if (b_students[i] != a.student[i])
-            {
-                if ((rand() & 1) || tmp[i] != a.student[i])
-                    tmp[i] = !a.student[i];
-            }
+            tmp[i] = tmp[i] ^ b_students[i];
         }
         // if pm
-        if (((double)rand()) / (RAND_MAX + 1) < pm)
+        if (getRand() < pm)
         {
             int t = r() % size - 1;
             tmp[t] = !a.student[t];
@@ -157,6 +167,7 @@ int main(int argc, char **argv)
     }
     cout << "read success" << endl;
     GA ga(n);
-    ga.run(10000);
+    ga.run(100);
+    ga.printHighest();
     return 0;
 }
