@@ -160,6 +160,8 @@ int main(int argc, char **argv)
 
     int generation = atoi(argv[2]);
 
+    int t = atoi(argv[3]);
+
     cout << "n= " << n << "\nsize= " << size << endl;
 
     wij.resize(n + 1);
@@ -177,22 +179,26 @@ int main(int argc, char **argv)
         wij[m][n] = w;
     }
     cout << "read success" << endl;
-    GA ga(n);
-    ga.run(generation);
-    ga.printHighest();
-
-    ifstream bestScoreFile("bestScore.txt");
-    double bestScore;
-    bestScoreFile >> bestScore;
-    bestScoreFile.close();
-    if (ga.population[0]->score > bestScore)
+    while (t--)
     {
-        cout << "new best! ";
-        ofstream newBest(string("bestScoreList/") + to_string(ga.population[0]->score));
-        newBest << ga.population[0]->getResultString() << endl;
-        ofstream bestScoreFile("bestScore.txt");
-        bestScoreFile << ga.population[0]->score;
+        cout << t << " times last" << endl;
+        GA ga(n);
+        ga.run(generation);
+        ga.printHighest();
+
+        ifstream bestScoreFile("bestScore.txt");
+        double bestScore;
+        bestScoreFile >> bestScore;
+        bestScoreFile.close();
+        if (ga.population[0]->score > bestScore)
+        {
+            cout << "new best! ";
+            ofstream newBest(string("bestScoreList/") + to_string(ga.population[0]->score));
+            newBest << ga.population[0]->getResultString() << endl;
+            ofstream bestScoreFile("bestScore.txt");
+            bestScoreFile << ga.population[0]->score;
+        }
+        cout << ga.population[0]->score << endl;
     }
-    cout << ga.population[0]->score << endl;
     return 0;
 }
