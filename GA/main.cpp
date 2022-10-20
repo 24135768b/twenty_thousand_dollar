@@ -144,7 +144,8 @@ public:
         vector<bool> b_students = b.student;
 
         int size = tmp.size();
-        for (int i = 1; i < size; i++)
+        int maxReplaced = r() % 5 + 1;
+        for (int i = 1; i < size && maxReplaced; i++)
         {
             if (tmp[i] != b_students[i])
             {
@@ -156,6 +157,7 @@ public:
                 {
                     tmp[i] = tmp[i] ^ b_students[i];
                 }
+                maxReplaced--;
             }
         }
         // if pm
