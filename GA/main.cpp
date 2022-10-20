@@ -121,12 +121,6 @@ public:
             *tempClass = crossOver(*population[r() % crossoverCnt], *population[r() % crossoverCnt]);
             population[i] = tempClass;
             population[i]->calcE();
-            if (tempClass->score > 10000)
-            {
-                cout << "Error" << endl;
-                cout << tempClass->getResultString() << endl;
-                exit(1);
-            }
         }
     }
     void printHighest()
