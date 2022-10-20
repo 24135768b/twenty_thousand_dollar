@@ -19,7 +19,7 @@ void go(int offset, int k, vector<int> &people, vector<int> &combination, vector
 
 int main() {
 
-  	int n = 5, k = 3;
+  	int n = 101, k = 2;
   	vector<int> people;
 	vector<int> combination;
 	vector< vector<int> > result;
