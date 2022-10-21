@@ -26,7 +26,7 @@ int main() {
 
 
   	for (int i = 0; i < n; ++i) { 
-		people.push_back(i+1); 
+		people.push_back(i); 
 	}
   	go(0, k, people, combination, result);
 

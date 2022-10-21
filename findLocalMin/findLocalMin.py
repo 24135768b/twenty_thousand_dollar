@@ -24,7 +24,7 @@ groupArr = [int(i) for i in groupInput.split(" ")]
 print(groupArr)
 print(calculate_weight(groupArr))
 
-maxWeight = 643.7063
+maxWeight = 700
 while True:
     # For each student, calculate the value of after sent to the other group. 
     for i in range(101):
