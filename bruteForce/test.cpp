@@ -30,6 +30,10 @@ int main(){
 
     // from GA/bestScoreList/ 742
     // int group[102] = {0,0,1,1,0,1,1,0,0,1,1,0,0,0,1,0,0,1,1,1,1,1,1,1,0,1,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,1,1,1,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,0,0,1,1,1,0};
+    /*current: -1098000000
+    Max value: 742.61
+    0,1,1,0,1,1,1,1,1,1,1,1,0,0,0,0,0,1,1,0,0,0,1,1,0,1,1,0,1,1,1,0,1,0,1,0,0,0,0,0,1,0,0,1,1,0,1,0,1,0,1,0,0,0,0,0,1,1,1,1,1,1,0,0,1,1,1,1,1,0,0,0,1,0,1,1,1,1,0,1,1,0,0,0,1,0,0,1,0,1,1,1,1,1,0,0,0,1,1,1,0,*/
+    
     for (int i = 0; i < 5050; i++)
     {
         int n, m;
@@ -57,6 +61,7 @@ int main(){
 
         double currentE = calcE(group);
         if(currentE > max){
+            max = currentE;
             // print group
             for(int i=1;i<102;i++){
                 cout << group[i] ;
@@ -66,8 +71,10 @@ int main(){
             // write file
             ofstream MyFile("result.txt");
             for(int i=1;i<102;i++){
-                MyFile << group[i];
+                MyFile << group[i] << " ";
             }
+            MyFile << endl;
+            MyFile << currentE << endl;
             MyFile.close();
         }
         if(counter % 1000000 == 0){
