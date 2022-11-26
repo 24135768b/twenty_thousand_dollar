@@ -1,5 +1,6 @@
 #include<iostream>
 #include<iomanip>
+#include<cmath>
 using namespace std;
 double wij[102][102] = {0};
 double calcE(int student[102]){
@@ -29,8 +30,8 @@ int main(){
         solution[group1[i]] = 1;
         solution[group2[i]] = 0;
     }
-    for(int i=0;i<20;i++){
-        solution[orphans[i]] = 1;
+    for(int i=0;i<19;i++){
+        solution[orphans[i]] = 2;
         
     }
     for(int i=0;i<102;++i){
@@ -39,5 +40,33 @@ int main(){
     cout << endl;
     double score = calcE(solution);
     cout << setprecision(10) << score << endl;
+
+    // generate all binary strings of length 19
+    // for each string, calculate the score
+    // keep track of the best score and the corresponding string
+    // print the best string and its score
+
+    double bestScore = 0;
+    for(int i=0;i<pow(2,19);++i){
+
+        for(int j = 0; j < 19; ++j) {
+            solution[orphans[j]] = (i >> j) & 1;
+        }
+        double score = calcE(solution);
+        if(score > bestScore){
+            bestScore = score;
+        }
+        if(score > 700){
+            for(int i=0;i<102;++i){
+                cout << solution[i] << " ";
+            }
+            cout << endl;
+            cout << setprecision(11) << "current score: " << score << "best score: "  << bestScore << endl;
+        }
+    }
+
+
+
+
     return 0;
 }
