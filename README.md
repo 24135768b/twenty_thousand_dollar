@@ -22,6 +22,16 @@ B A A B A A B B A A B B B A B B A A A A A A A B A A A B A B B B A B A B B B B B 
 ## 二、程式碼
 
 最佳解由基因演算法完成，程式碼位於 `GA/` 資料夾中
+使用方法：
+
+```
+$ cd GA/
+$ make
+$ make run
+或
+$ ./main 101(總人數) 1000(GA的generation) 10(要跑幾個epoch) <input.txt(輸入檔案)
+其中GA的generation跟epoch的數字可以自行調整
+```
 
 其餘資料夾為其他實驗過程，包含：
 
