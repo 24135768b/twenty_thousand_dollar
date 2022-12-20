@@ -5,6 +5,6 @@ clean:
 	rm -f main
 
 run: all
-	./main 101 < ../input.txt >output.txt
+	./main 101 1000 10 < ../input.txt >output.txt
 test: all
-	./main 4 < ../test.in >test.out
+	./main 4 10 10 < ../test.in >test.out
